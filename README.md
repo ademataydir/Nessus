@@ -21,7 +21,7 @@
 
 ### Create a Scan Profile
 
-![image](https://github.com/user-attachments/assets/210edd98-bf48-4428-8cfa-219ecd89b697)
+![image](https://github.com/user-attachments/assets/012f14aa-453f-4a2b-969b-e78580a49942)
 
 © Tenable Inc.
 
