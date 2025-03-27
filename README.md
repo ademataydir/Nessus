@@ -21,13 +21,13 @@
 
 ### Create a Scan Profile
 
-![image](https://github.com/user-attachments/assets/d77a4b53-a4c7-4d99-83dd-5f2f829d1a44)
+![Screenshot 2025-03-27 133121](https://github.com/user-attachments/assets/e552b139-4e10-408e-a5f2-20529e7a7467)
 
 © Tenable Inc.
 
 - 'New Scan' is selected to create a new scan.
 
-![image](https://github.com/user-attachments/assets/e7d69cd8-d6ab-4bb7-baa2-c9c8d549663c)
+![Screenshot 2025-03-27 133531](https://github.com/user-attachments/assets/823c0255-8b85-4bbd-bec6-f1c9a69c2090)
 
 © Tenable Inc.
 
@@ -42,25 +42,25 @@ The main types of scans in Nessus and their brief descriptions:
 8.	Mobile Device Scan: Scans for security vulnerabilities specific to mobile devices.
 - From here we select the type of scan we need. Since Advanced Scan scans in detail, Advanced Scan also has settings that can be encountered in other types of scans. That's why we're going to continue with Advanced Scan.
 
-![image](https://github.com/user-attachments/assets/af07ff9b-7d80-4e71-b9bc-730f58025d69)
+![Screenshot 2025-03-27 133849](https://github.com/user-attachments/assets/db98e0d9-dd9e-4f65-a42f-17175b7945fb)
 
 © Tenable Inc.
 
 - Here the name, description and Destination of our scan are determined. We can enter the destination manually, we can export it as a file with the "Add File" option.
 
-![image](https://github.com/user-attachments/assets/85f8b69d-55e7-463c-8bfa-2238d4cf5b75)
+![Screenshot 2025-03-27 134022](https://github.com/user-attachments/assets/385391c0-e622-4cd8-a72e-2f6d35e59715)
 
 © Tenable Inc.
 
 The Shedule option is Disabled by default.
 
-![image](https://github.com/user-attachments/assets/e03a4dd4-4081-4ea1-bd52-eb4767db2dd5)
+![Screenshot 2025-03-27 134036](https://github.com/user-attachments/assets/6ea5ee7c-9bcc-4e95-b16b-2c1c5629375a)
 
 © Tenable Inc.
 
 If we make it enabled, we can determine from which day and time and how often the scan we will create will run.
 
-![image](https://github.com/user-attachments/assets/260fcfbf-a132-4404-8ba6-8660a992dcd7)
+![Screenshot 2025-03-27 134158](https://github.com/user-attachments/assets/ce649a15-3a98-4d8d-afcd-78fbdf61a5d0)
 
 © Tenable Inc.
 
@@ -77,7 +77,7 @@ Example: 22,80,443 (Scans only these ports)
 Example: 20-25,80,443,8080 (Both range and specific ports)
 Note: If you want to limit network traffic, it is recommended that you specify only the ports you need.
 
-![image](https://github.com/user-attachments/assets/5ed00cb4-aef3-4930-9c12-0c276ee78c08)
+![Screenshot 2025-03-27 134347](https://github.com/user-attachments/assets/1e0a9d3d-3c16-4539-a023-0891fd8a4734)
 
 © Tenable Inc.
 
@@ -93,7 +93,7 @@ The differences between TCP Scan and SYN Scan in Nessus  are as follows:
 •	It's faster and more discreet; It is more difficult to detect by IDS/IPS systems.
 Conclusion: SYN Scan is a faster and stealthier method, while TCP Scan is more visible but more reliable.
 
-![image](https://github.com/user-attachments/assets/e59d3c8a-569e-44ea-a572-76675b02fb4c)
+![Screenshot 2025-03-27 134625](https://github.com/user-attachments/assets/cfee883e-d69a-43c9-a18b-7e6e6a22f752)
 
  © Tenable Inc.
  
@@ -105,19 +105,19 @@ Conclusion: SYN Scan is a faster and stealthier method, while TCP Scan is more v
 You must use accounts  with the correct permissions (for example, admin/root privileges).
  A credentialed scan is a type of scan that looks at the system from the inside, not from the outside; This results in more precise and comprehensive results.
 
- ![image](https://github.com/user-attachments/assets/628da0f1-cf8e-4423-9d4c-a95210c8505c)
+![Screenshot 2025-03-27 134815](https://github.com/user-attachments/assets/8b2edf64-8515-49d9-80da-2b991a13bbb3)
 
 © Tenable Inc.
 
 For Linux / Unix: When we click on the "SSH" option, we select the Authentication method section according to the Credentials information we have in the section that opens on the right. If we have Username and Password, select the Password option as the Authentication method and enter the Username and Password information. 
 
-![image](https://github.com/user-attachments/assets/a4cfff81-e656-47f4-bb3f-86b2db52324c)
+![Screenshot 2025-03-27 134845](https://github.com/user-attachments/assets/1e22f7ee-c15b-4c4b-bbc4-0bee3fc2eabc)
 
  © Tenable Inc.
  
 For Windows: According to the Credentials information we have, we make a selection in the Authentication method section. If we have Username and Password, select the Password option as the Authentication method and enter the Username and Password information. 
 
-![image](https://github.com/user-attachments/assets/b4ea4bcc-fe02-4f40-9750-edf9bed4a564)
+![Screenshot 2025-03-27 135028](https://github.com/user-attachments/assets/9a0c08e5-b257-4f4e-ac8f-36565e301467)
 
 © Tenable Inc.
 
@@ -131,24 +131,27 @@ How to use?
 •	For example: There are titles such as "Windows", "Web Servers", "Malware", "Compliance".
 •	You can enable or disable the plugins you want.
 
-![image](https://github.com/user-attachments/assets/bd43deb1-992d-4faa-acb7-5b259c961207)
+![Screenshot 2025-03-27 135218](https://github.com/user-attachments/assets/ffd39104-db24-45cf-81ec-34ac70d2f31b)
 
 © Tenable Inc.
 
 After making all our adjustments, we press the Save button at the bottom left and save.
+
 Analysis of Scan Results
-•	- When the scan is complete, vulnerabilities are sorted according to critical level.
-•	- Description, CVE code and solution suggestion can be displayed for each vulnerability.
-•	- Detailed analysis can be made according to filters.
+- When the scan is complete, vulnerabilities are sorted according to critical level.
+- Description, CVE code and solution suggestion can be displayed for each vulnerability.
+- Detailed analysis can be made according to filters.
+
 Reporting and Exporting
-•	- Scan results can be exported in PDF, HTML, or CSV format.
-•	- Reports can be customized to present to management.
-•	- Automatic report sending feature is also available.
+- Scan results can be exported in PDF, HTML, or CSV format.
+- Reports can be customized to present to management.
+- Automatic report sending feature is also available.
+
 Important
-•	- Get permission from target systems before scanning.
-•	- Plan the scan schedule carefully.
-•	- Archive and track reports regularly.
-•	- Keep Nessus and its add-ons up to date.
+- Get permission from target systems before scanning.
+- Plan the scan schedule carefully.
+- Archive and track reports regularly.
+- Keep Nessus and its add-ons up to date.
 
 ### Note: 
 This content has been prepared for educational purposes to explain the usage steps of Nessus. All screenshots and software are the property of Tenable Inc. This page is not intended for commercial use.
